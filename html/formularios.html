@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+     <!--Formularios-->
+    <fieldset>
+        <legend>Registro graduado</legend>
+
+    <form action="/resul.html" method="get" >
+        <label for="nombre">Nombres:</label>
+        <input type="" name="nombre" required><br><br>
+
+        <label for="apellido">Apellidos</label>
+        <input type="text" name="apellido" required><br><br>
+
+
+            <label for="universida">Universidad:</label>
+            <select name="universidad" id="">
+            <option value=""></option>
+            <option value="">Cesde</option>
+            <option value="">Universidad de Medellin</option>
+            <option value="">Universidad de Antioquia</option>
+            <option value="">Universidad Pacual Bravo</option>
+            <option value="">Universidad Luis Amigo</option>
+            <option value="">Universidad Coperativa de Colombia</option>
+
+        </select><br><br>
+        
+
+        <label for action="contacto">Contacto WhatsApp:</label>
+        <input type="text" name="contacto"required><br><br>
+
+        <label for="correo">Email:</label>
+        <input type="email" name="correo"><br><br>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="" ></textarea><br><br>
+
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contrasena"><br><br>
+        
+        <button type="reset">Cancelar</button>
+        <button type="submit">Enviar</button>
+    </form>
+    </fieldset><br><br>
+
+    <fieldset>
+        <legend>Código</legend>
+        <form>
+            <label for="nombre">Nombres:</label>
+            <input type="text" name="nombre" required><br><br>
+
+            <label for="apellido">Apellidos</label>
+            <input type="text" name="apellido" required><br><br>
+            
+            <label for action="contacto">Contacto WhatsApp:</label>
+            <input type="text" name="contacto"required><br><br>
+
+            
+
+            <button type="submit">Generar Código</button>   
+        </form>
+
+    </fieldset><br><br>
+
+    <fieldset>
+        <legend>Galería</legend>
+        <form>
+            <!--este codigo debe llevar a una galeria donde se seleccionan las fotografias para descargar-->
+            <label for="codigo">Ingresar Codigo:</label>
+            <input type="text" name="codigo"><br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="limpiar">borrar</button>
+        </form>
+    </fieldset>
+
+
+</body>
+</html>
