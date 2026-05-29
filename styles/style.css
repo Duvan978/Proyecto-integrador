@@ -19,7 +19,7 @@ header {
 }
 .visibility-hidden {
     visibility: hidden;
-    
+
 }
 
 hr {
@@ -168,7 +168,88 @@ a {
         border-radius: 50%;
         border: Solid 2px green;
      }  
-       
+     .boton {
+        background-color: rgba(218, 165, 32, 0.996);
+        font-size: 10px;
+        border-radius: 5px;
+        padding: 5px;
+
+     }
+    .boton:hover {
+        background-color: white;
+        font-size: 20px;
+        border-radius: 8px;
+        padding: 12px;
+        color: goldenrod;
+        border-color: goldenrod;
+    }
+    .enlace {
+        text-decoration: none;
+        padding: 10px;
+    }
+    .enlace:hover {
+        text-decoration: dotted;
+        color: goldenrod;
+        padding: 10px;
+        text-shadow: 5px goldenrod;
+    }
+    label {
+        margin-bottom: 5px;
+        margin-right: 15px;
+        
+    }
+    
+    .fregistro {
+    background-color: rgb(235, 249, 235);
+    border: 2px solid rgb(2, 117, 65);
+    font-size: 30px;
+
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+         
+    }
+
+    .fcodigo {
+    background-color: rgb(238, 245, 251);
+    border: 2px solid rgb(10, 77, 122);
+    font-size: 30px;
+
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+    }
+    .fgaleria {
+    background-color: rgb(248, 237, 253);
+    border: 2px solid rgb(76, 7, 156);
+    font-size: 30px;
+
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+    }
+    
+    .fdescarga {
+    background-color: rgb(253, 239, 231);
+    border: 2px solid rgb(220, 87, 38);
+    font-size: 30px;
+
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+
+    }
             
           
         

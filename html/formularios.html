@@ -8,12 +8,13 @@
 </head>
 <body>
      <!--Formularios-->
+    <section class="fregistro">
     <fieldset>
-        <legend>Registro graduado</legend>
+        <legend class="green">Registro graduado</legend>
 
     <form action="/resul.html" method="get" >
 
-        <label for="nombre">Nombres:</label>
+        <label  for="nombre">Nombres:</label>
         <input type="" name="nombre" required><br><br>
 
         <label for="apellido">Apellidos</label>
@@ -48,10 +49,14 @@
         <button type="reset">Cancelar</button>
         <button type="submit">Enviar</button>
     </form>
-    </fieldset><br><br>
+    </fieldset>
+    </section>
+    <br><br>
+
+<section class="fcodigo">
 
     <fieldset>
-        <legend>Código</legend>
+        <legend class="blue">Código</legend>
         <form>
             <label for="nombre">Nombres:</label>
             <input type="text" name="nombre" required><br><br>
@@ -67,10 +72,13 @@
             <button type="submit">Generar Código</button>   
         </form>
 
-    </fieldset><br><br>
-
+    </fieldset>
+</section><br><br>
+ 
+<section class="fgaleria"> 
     <fieldset>
-        <legend>Galería</legend>
+        
+        <legend class="purple">Galería</legend>
         <form>
             <!--este codigo debe llevar a una galeria donde se seleccionan las fotografias para descargar-->
             <label for="codigo">Ingresar Codigo:</label>
@@ -84,6 +92,29 @@
             <button type="limpiar">borrar</button>
         </form>
     </fieldset>
+    </section><br><br>
+    
+
+    <section class="fdescarga">
+    <fieldset>
+        <legend class="orangered">Descarga</legend>
+        <form>
+            <!-- en el boton descarga el usuario puede descargar sus fotografiaas al pagar el valor 
+             delas fotografias seleccionadas-->
+             <label for="descarga">Nombre completo</label>
+             <input type="text" name="nombre"><br><br>
+             <label for="Ingrese su codigo">Codigo</label>
+             <input type="text" name="codigo"><br><br>
+             <label for="Descargar">Descargar</label>
+             <input type="text" name="descargar"><br><br>
+
+
+        </form>
+    </fieldset>
+    </section>
+
+
+
 
 
 </body>
