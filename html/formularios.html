@@ -43,11 +43,14 @@
         <label for="mensaje">Mensaje</label>
         <textarea name="mensaje" id="" ></textarea><br><br>
 
-        <label for="contraseña">Contraseña</label>
-        <input type="password" name="contrasena"><br><br>
+        <label for="contraseña"> Crear Contraseña</label>
+        <input type="password" name="contrasena" required><br><br>
+
+        <label for="contraseña"> Confirmar Contraseña</label>
+        <input type="password" name="contrasena" required><br><br>
         
-        <button class="boton" type="reset">Cancelar</button>
-        <button class="boton" type="submit">Enviar</button>
+        <button class="boton" type="reset">Enviar</button>
+        <button class="boton" type="submit">Cancelar</button>
     </form>
     </fieldset>
     </section>
@@ -65,7 +68,7 @@
             <label for="apellido">Apellidos</label>
             <input type="text" name="apellido" required><br><br>
             
-            <label for action="contacto">Contacto WhatsApp:</label>
+            <label for action="contraseña">Contraseña:</label>
             <input type="text" name="contacto"required><br><br>
 
             <button class="boton" type="submit">Generar Código</button>   
@@ -80,15 +83,20 @@
         <legend class="purple">Galería</legend>
         <form>
             <!--este codigo debe llevar a una galeria donde se seleccionan las fotografias para descargar-->
+
+            <label for action="contraseña">Contraseña:</label>
+            <input type="text" name="contacto"required><br><br>
+
             <label for="codigo">Ingresar Codigo:</label>
             <input type="text" name="codigo"><br><br>
+            
             <label for="Seleccionar fotografias">seleccion Fotografias</label>
             <input type="Fotografias" id="">
             <option value=""></option>
             <br><br>
 
-            <button class="boton" type="submit">Enviar</button>
-            <button class="boton" type="limpiar">borrar</button>
+            <button class="boton" type="submit">Pagar</button>
+            <button class="boton" type="limpiar">Cancelar</button>
 
         </form>
     </fieldset>
@@ -102,9 +110,13 @@
             <!-- en el boton descarga el usuario puede descargar sus fotografiaas al pagar el valor 
              delas fotografias seleccionadas-->
              <label for="descarga">Nombre completo</label>
-             <input type="text" name="nombre"><br><br>
+             <input type="text" name="nombre" required><br><br>
+
+            <label for action="contraseña">Contraseña:</label>
+            <input type="text" name="contacto" required><br><br>
+
              <label for="Ingrese su codigo">Codigo</label>
-             <input type="text" name="codigo"><br><br>
+             <input type="text" name="codigo" required><br><br>
              
              <button class="boton" type="submit">Descargar</button>
 
